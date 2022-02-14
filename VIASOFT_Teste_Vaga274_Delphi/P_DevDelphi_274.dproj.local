@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/02/14 12:11:43.000.928,=C:\Users\DS - André\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/14 12:15:35.000.536,C:\Users\DS - André\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\DS - André\Desktop\Nova pasta 2\V\FrmPrincipal.pas</Transaction>
+    <Transaction>2022/02/14 12:15:35.000.536,C:\Users\DS - André\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\DS - André\Desktop\Nova pasta 2\V\FrmPrincipal.dfm</Transaction>
+    <Transaction>2022/02/14 12:16:47.000.239,C:\Users\DS - André\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\DS - André\Desktop\Nova pasta 2\V\P_DevDelphi_274.dproj</Transaction>
+    <Transaction>2022/02/14 12:20:43.000.977,=C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.pas</Transaction>
+    <Transaction>2022/02/14 12:22:03.000.782,C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.pas=C:\Users\DS - André\Desktop\Nova pasta 2\V\FrmCadItens.pas</Transaction>
+    <Transaction>2022/02/14 12:22:03.000.782,C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.dfm=C:\Users\DS - André\Desktop\Nova pasta 2\V\FrmCadItens.dfm</Transaction>
+    <Transaction>2022/02/14 12:22:08.000.896,=C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.pas</Transaction>
+    <Transaction>2022/02/14 12:24:41.000.749,C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.pas=C:\Users\DS - André\Desktop\Nova pasta 2\V\FrmCadPedItens.pas</Transaction>
+    <Transaction>2022/02/14 12:24:41.000.749,C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.dfm=C:\Users\DS - André\Desktop\Nova pasta 2\V\FrmCadPedItens.dfm</Transaction>
+    <Transaction>2022/02/14 12:29:48.000.745,=C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.pas</Transaction>
+    <Transaction>2022/02/14 12:31:14.000.426,C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.dfm=C:\Users\DS - André\Desktop\Nova pasta 2\V\FrmPesqPedItens.dfm</Transaction>
+    <Transaction>2022/02/14 12:31:14.000.426,C:\Users\DS - André\Desktop\Nova pasta 2\V\Unit1.pas=C:\Users\DS - André\Desktop\Nova pasta 2\V\FrmPesqPedItens.pas</Transaction>
+  </Transactions>
+</BorlandProject>

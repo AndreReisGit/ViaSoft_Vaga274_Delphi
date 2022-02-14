@@ -1,0 +1,37 @@
+object Frm_Principal: TFrm_Principal
+  Left = 0
+  Top = 0
+  Caption = 'Sistema de Pedidos CONSTRUSHOW'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu: TMainMenu
+    Left = 216
+    Top = 80
+    object Cadastros1: TMenuItem
+      Caption = 'Cadastros'
+      object Itens1: TMenuItem
+        Caption = 'Itens'
+      end
+      object PedidoItens1: TMenuItem
+        Caption = 'Pedido Itens'
+      end
+    end
+    object Pesquisas1: TMenuItem
+      Caption = 'Pesquisas'
+      object Pedidos1: TMenuItem
+        Caption = 'Pedidos'
+      end
+    end
+  end
+end

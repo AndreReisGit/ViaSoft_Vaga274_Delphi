@@ -1,0 +1,104 @@
+object Frm_cad_itens: TFrm_cad_itens
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Cadastro de Itens'
+  ClientHeight = 309
+  ClientWidth = 645
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 131
+    Top = 56
+    Width = 36
+    Height = 13
+    Caption = 'ID Item'
+  end
+  object Label2: TLabel
+    Left = 96
+    Top = 96
+    Width = 71
+    Height = 13
+    Caption = 'Descri'#231#227'o Item'
+  end
+  object btn_gravar: TBitBtn
+    Left = 80
+    Top = 248
+    Width = 75
+    Height = 25
+    Caption = 'Gravar'
+    TabOrder = 0
+  end
+  object bnt_cancelar: TBitBtn
+    Left = 184
+    Top = 248
+    Width = 75
+    Height = 25
+    Caption = 'Cancelar'
+    TabOrder = 1
+  end
+  object btn_excluir: TBitBtn
+    Left = 288
+    Top = 248
+    Width = 75
+    Height = 25
+    Caption = 'Excluir'
+    TabOrder = 2
+  end
+  object btn_sair: TBitBtn
+    Left = 536
+    Top = 248
+    Width = 75
+    Height = 25
+    Caption = 'Sair'
+    ModalResult = 1
+    TabOrder = 3
+  end
+  object dbe_IDITEM: TDBEdit
+    Left = 184
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object dbe_DESCITEM: TDBEdit
+    Left = 184
+    Top = 96
+    Width = 313
+    Height = 21
+    TabOrder = 5
+  end
+  object ClientDataSet1: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'DataSetProvider1'
+    Left = 232
+    Top = 168
+  end
+  object DataSetProvider1: TDataSetProvider
+    DataSet = FDQuery1
+    Left = 320
+    Top = 176
+  end
+  object DataSource1: TDataSource
+    DataSet = ClientDataSet1
+    Left = 152
+    Top = 184
+  end
+  object FDQuery1: TFDQuery
+    ConnectionName = 'DBDEMOS'
+    SQL.Strings = (
+      'SELECT I.IDITEM, I.DESCITEM'
+      'FROM ITEM I ')
+    Left = 400
+    Top = 176
+  end
+end
